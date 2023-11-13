@@ -2,7 +2,7 @@
 
 std::string problemSolution3(float height, char S) {
     // write your code here
-     if (sex == 'M') {
+     if (S == 'M') {
         if (height < 1.6) {
             return "Short";
         } else if (height < 1.8) {
@@ -10,7 +10,7 @@ std::string problemSolution3(float height, char S) {
         } else {
             return "Tall";
         }
-    } else if (sex == 'F') {
+    } else if (S == 'F') {
         if (height < 1.5) {
             return "Short";
         } else if (height < 1.7) {

@@ -17,6 +17,6 @@ int main() {
     cout << "Problem 4\n";
     problemSolution4();
     cout << "Problem 5\n";
-    problemSolution5(5.0, 2.0, '/');
+    cout << problemSolution5(5.0, 2.0, '/') << endl;
     return 0;
 }

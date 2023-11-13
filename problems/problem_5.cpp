@@ -5,8 +5,8 @@ float problemSolution5(float x, float y, char operation) {
         case '+': return x + y;
         case '-': return x - y;
         case '*': return x * y;
-        case '/': return (y != 0) ? x / y : (cout << "Error!" << endl, 1);
-        default: cout << "Error!" << endl; return 1;
+        case '/': return (y != 0) ? x / y : return 1;
+        default: return 1;
     }
    return result;
 }
